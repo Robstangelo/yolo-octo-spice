@@ -4,9 +4,9 @@ public class quadfix
 {
   public static void main(String args[])
   {
-    for (int i = 0; i < 50; ++i) System.out.println();
+    for (int i = 0; i < 50; ++i) System.out.println(); //Clears screen
     Scanner sc = new Scanner(System.in);
-    double a, b, c, step1, step2, step3a, step3b, ans;
+    double a, b, c, step1, step2, step3a, step3b, ans; //Needs cleaning up
     double nr, nr2, nr3;
     char square = '√';
     System.out.println("What is your a value?");
@@ -28,7 +28,7 @@ public class quadfix
 
     System.out.printf("\n%.2f +- %c%.4f\n", -b, square, step1);
     System.out.printf("-----------------\n");
-    double twoa = 2 * a;
+    double twoa = 2 * a; //A bit messy
     System.out.printf("%.5f\n", twoa);
 
 
