@@ -1,6 +1,6 @@
 import static java.lang.Math.*;
 import java.util.Scanner;
-public class quadfix
+public class solvemyquad
 {
   public static void main(String args[])
   {
